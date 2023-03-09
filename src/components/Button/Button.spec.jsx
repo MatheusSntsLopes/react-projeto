@@ -28,4 +28,11 @@ describe('<Button text="load more" />', ()=> {
 
        expect(button).toBeDisabled();
     });
+
+    it('should match snapshot', ()=> {
+        
+       const {container} = render(<Button text="Load more" disabled={true} />);
+
+       expect(container).toMatchSnapshot();
+    });
 })
