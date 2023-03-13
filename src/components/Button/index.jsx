@@ -1,6 +1,6 @@
-import prop from "prop-types";
-import { Component } from "react";
-import "./styles.css";
+import prop from 'prop-types';
+import { Component } from 'react';
+import './styles.css';
 
 export class Button extends Component {
   render() {
